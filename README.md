@@ -19,9 +19,9 @@ While playing we cannot calculate the score,and sometimes our friends dont have 
 You need to first enter the number of players,and then then the names.
 after this the compiler will ask you weather user wants computer generated Questions or they just want the randomly generated names which here doesen't account for the position you are sitting.
 
-if you choose the computer generated option,only one name is generated and the compile asks to choose between truth and dare.This is onne of the two modes,to turn back to the main menu user must follow the instruction by the compiler.
+if you choose the computer generated option,only one name is generated and the compile asks to choose between truth and dare,for truth press T, for Dare press d.This is one of the two modes,to turn back to the main menu user must follow the instruction by the compiler.
 
-once thr user turns back to the main menu,and plays in the second mode the compiler generates two random names and labels them for Questioning and Answering.
+once the user turns back to the main menu,and plays in the second mode the compiler generates two random names and labels them for Questioning and Answering.
 
 User can choose to exit after returning to the main menu.
 
