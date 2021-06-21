@@ -15,6 +15,7 @@ int main()
 int x,l;
 char cho;
 char choice='y';
+cout<<"Welcome to TDS\n";
 cout<<"Enter number of players ";
 cin>>x;
 string name[x];
@@ -24,7 +25,7 @@ for (int i=0;i<x;i++)
   cin>>name[i];
 }
 a:      //goto statemnt
-cout<<"\t MAIN MENU"<<"\n"<<"For Computer generated Truths and Dares,press Y \n\t\tor \nTo play among yourselves press any other key and hit Enter"<<"\n\tPress F to Quit "<<"\n";
+cout<<"\t\t MAIN MENU"<<"\n"<<"For Computer generated Truths and Dares,press Y \n\t\t\tor \nTo play among yourselves press any other key and hit Enter"<<"\n\t\tPress F to Quit "<<"\n";
 cin>>cho;
 switch(cho)
 {
@@ -95,7 +96,7 @@ while(l!=temp)                     /*temp is initially -1 so that first random n
 if(counter==2)
 break;
 }
-cout<<"\n\n\n"<<"To exit this mode press any key"<<"\n"<<"For next round press Y and hit enter or  ";
+cout<<"\n\n\n"<<"To exit this mode press any key"<<"\n"<<"For next round press Y and hit enter \n ";
 cin>>choice;
 }
 goto a;
